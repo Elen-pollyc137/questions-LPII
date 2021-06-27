@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="card-principal">
+        <div class="card-calcular" id="content">
+            <h1>Calcular a Hipotenusa</h1>
+            <div class="card-factors">
+                <h3>Para calcular a hipotenusa a formula <br> ultilizada será <br> H=√c12+c22</h3>
+                <div>
+                    <input type="text" id="factors" placeholder="Cateto 1">
+                </div>
+                <div>
+                    <input type="text" id="factors-2" placeholder="Cateto 2">
+                </div>
+
+                <button type="button" id="button" class="buttoncalcular">Enviar</button>
+            </div>
+            <div id="principal-element">
+
+            </div>
+
+
+        </div>
+        <div id="questions" class="">
+            <div class="card-question1 wall-1 animeLeft" id="wall-1">
+                <a href="#wall-2">Voltar</a>
+                <h1>Questao 1</h1>
+                <div id="question1" class="text-card">
+
+                    <h3>Qual é a medida da hipotenusa no triângulo a seguir?</h3>
+                    <img src="/img/hipotenusa.png" alt="" class="img-question1"><br>
+                    <span id="optionA"><input type="radio" name="question1">17</span><br>
+                    <span id="optionB"><input type="radio" name="question1">15</span><br>
+                    <span id="optionC"><input type="radio" name="question1">3/5</span><br>
+                    <span id="optionD"><input type="radio" name="question1">18</span><br>
+                    <button type="button" id="questionbutton" class="buttoncalcular"> Resposta</button>
+
+                </div>
+                <a href="#wall-2">Avançar</a>
+            </div>
+
+            <div class="card-question1  wall-2 animeLeft" id="wall-2">
+                <a href="#wall-1">Voltar</a>
+                <h1>Questao 2</h1>
+                <div id="question2" class="text-card">
+
+                    <h3>Qual é a medida da hipotenusa no triângulo a seguir?</h3>
+                    <img src="/img/hipotenusa.png" alt="" class="img-question1"><br>
+                    <span id="alternativeA"><input type="radio" name="question1">17</span><br>
+                    <span id="optionB"><input type="radio" name="question1">15</span><br>
+                    <span id="optionC"><input type="radio" name="question1">3/5</span><br>
+                    <span id="optionD"><input type="radio" name="question1">18</span><br>
+                    <button type="button" id="questionbutton-2" class="buttoncalcular"> Resposta</button>
+                </div>
+            </div>
+            <div id="">
+
+            </div>
+
+        </div>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+
+
+</html>
